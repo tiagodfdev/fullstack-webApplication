@@ -4,6 +4,7 @@
 */node_modules/
 */mydb/
 */my-db/
+*/.gitignore
 build/
 tmp/
 temp/

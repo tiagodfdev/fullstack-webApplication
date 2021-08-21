@@ -3,7 +3,7 @@
 ## Front-end Stack
 - HTML
 - CSS
-- Javascript
+- Typescript
 - ReactJS
 - ChakraUI
 - Axios
