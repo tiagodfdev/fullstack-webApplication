@@ -1,0 +1,23 @@
+{
+   "type": "mysql",
+   "host": "mysql-db",
+   "port": 3306,
+   "username": "root",
+   "password": "mysql",
+   "database": "mysql-db",
+   "synchronize": true,
+   "logging": true,
+   "entities": ["dist/**/*.entity{.ts,.js}"],
+   "autoLoadEntities":true,
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}

@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+*/.env
+*/node_modules/
+*/mydb/
+*/my-db/
+build/
+tmp/
+temp/

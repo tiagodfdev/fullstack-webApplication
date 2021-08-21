@@ -1,0 +1,3 @@
+rodar yarn tanto no back-end quanto no front-end
+subir o back-end no docker
+rodar yarn start no front-end.
