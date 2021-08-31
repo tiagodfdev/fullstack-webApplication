@@ -33,7 +33,9 @@ export default function NewClient() {
     const dateTreatment = moment(birthDate, 'YYYY-MM-DD').format('DD/MM/YYYY');
     const bodySend = new Contact(firstName, lastName, phone, dateTreatment, address, email);
     setSubmitState(true);
-    await bodySend.addClient(setSubmitState);
+    const res = await bodySend.addClient(setSubmitState);
+    res?alert('Cliente criado com sucesso'):alert('Erro inesperado')
+    history.push('/')
   };
   return (
     <Flex flexDirection="column" w="100%" maxWidth="3xl">
